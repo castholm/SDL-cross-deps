@@ -1,0 +1,21 @@
+.{
+    .name = "SDL-cross-deps",
+    .version = "0.0.0",
+    .dependencies = .{},
+    .paths = .{
+        "opengl/",
+        "vulkan/",
+        "wayland/",
+        "x11/",
+        "kmsdrm/",
+        "libusb/",
+        "pulseaudio/",
+        "pipewire/",
+        "alsa/",
+        "sndio/",
+        "jack/",
+        "linuxcore/",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
